@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Animation Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to our Interactive Page!</h1>
+
+  <section id="greetingSection">
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button onclick="saveName()">Save Name</button>
+    <p id="greetingMessage"></p>
+  </section>
+
+  <section id="animationSection">
+    <div id="box"></div>
+    <button onclick="triggerAnimation()">Bounce the Box!</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
